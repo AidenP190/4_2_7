@@ -18,10 +18,10 @@ using namespace std;
 
 bool is_close(double a, double b, double tolerance){
     
-    if( fabs(a - b) < tolerance)
-    {
-        return true;
-    }
+  if( fabs(a - b) < tolerance)
+  {
+     return true;
+  }
   else
   {
      return false;
